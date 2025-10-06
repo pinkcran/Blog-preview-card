@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree','san-serif';
+}
+
+:root{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card{
+    max-width: 300px; 
+    height: 450px;
+    /*border is dictated based in w&h*/
+    background-color: white;
+
+    /*border settings*/
+    border: 1px solid;
+    border-radius: 12px;
+    box-shadow: 7px 7px;
+
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto; /*moves the card to center*/
+}
+
+.display{
+    display: block;
+    margin: 15px 15px  auto;
+    border-radius: 15px;
+}
+
+.display img{
+    width: 100%;
+    border-radius: 12px;
+ }
+
+.button{
+    max-width: 80px;
+    font-weight: 800px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+
+    margin: 15px;
+}
+
+.date{
+    font-weight: 500px;
+    margin: 10px 15px;
+}
+
+.title{
+    color: hsl(0, 0%, 7%);    
+    margin: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.title:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.body{
+    font-weight: 500px;
+    font-size: 15px;
+    color: hsl(0, 0%, 7%); 
+    margin: 15px 15px;
+}
+
+.author img{
+    max-width: 10%;
+    margin: 10px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    font-weight: 800px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
